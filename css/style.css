@@ -1,0 +1,283 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%
+
+}
+
+body {
+    color: #2e3740;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'MS Pゴシック', 'MS PGothic', sans-serif;
+    padding: 0;
+
+}
+
+section h1 {
+    font-size: 4rem;
+    text-align: center;
+    border-top: double 5px #ccc;
+    border-bottom: double 5px #ccc;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.w-100 {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2e3740;
+}
+
+a:hover {
+    color: green;
+}
+
+.gl_header {
+    padding: 30px 0 20px;
+
+}
+
+.logo,
+.tel {
+    display: inline-block;
+}
+
+.logo {
+  background: url(../images/logo.png) center / contain no-repeat;
+    width: 250px;
+    height: 60px;
+    margin: 0px;
+    text-indent: -9999px;
+}
+
+.tel {
+    float: right;
+    width: 240px;
+    height: 50px;
+    display: block;
+    background-color: #fdf5e6;
+    border-radius: 10px;
+    padding: 5px;
+ /*   position: fixed;
+    top:30px;
+    right: 0;*/
+}
+.tel p {
+  line-height: 1.1;
+  margin: 0;
+
+}
+
+.tel_n {
+  font-size: 2.8rem;
+  font-weight: bold;
+    letter-spacing:0.8px;
+}
+
+.tel_time {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.gl_header h1,
+h2 {
+    display: inline-block;
+}
+
+.gl_header h2 {
+    float: right;
+}
+
+.gl_nav ul {
+    text-align: center;
+}
+.nav_text {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.fa-2x {
+  padding-bottom: 10px;
+}
+
+.gl_nav ul li {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    border-right: 1px solid #ccc;
+    font-size: 1.5rem;
+}
+
+.gl_nav ul li:first-child {
+    border-left: 1px solid #ccc;
+}
+
+.gl_main {
+    margin-bottom: 50px;
+}
+
+.hero_img {
+    background: url("../images/hero_img.jpg") center center / cover no-repeat;
+    height: 520px;
+}
+ul.bxslider li {
+  width: 1080px;
+  height: 520px;
+  position: relative;
+}
+ul.bxslider li img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+
+.hero_text {
+    width: 550px;
+    height: 380px;
+    padding-top: 150px;
+}
+.fa-quora {
+  color: #FA514B;
+}
+.fa-comment-o {
+  color: #79A6F2;
+}
+
+.section_services,
+.section_flow,
+.section_question,
+.section_contact {
+    margin-bottom: 50px;
+}
+
+.services_group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.services_img img {
+    width: 320px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.services_title {
+    font-size: 1.5rem;
+}
+.services_title span{
+  font-weight: bold;
+}
+
+.section_flow h2 {
+    font-size: 2.5rem;
+    display: inline-block;
+    width: 740px;
+    height: 40px;
+    /*text-align: center;*/
+    background: #fce2b1;
+    margin: 0;
+}
+.section_flow h2 span {
+  padding-left: 60px;
+}
+
+.section_flow p {
+    font-size: 1.8rem;
+}
+.flow_box {
+  width: 1080px;
+  height: 60px;
+}
+
+.flow_img {
+    display: block;
+    width: 300px;
+    height: 160px;
+    border: 1px solid #CCC;
+}
+
+.right {
+    float: right;
+    width: 740px;
+    height: 160px;
+}
+
+
+.section_flow a,
+.section_contact a {
+    color: #f28d1b;
+}
+
+.section_flow a:hover,
+.section_contact a:hover {
+    color: green;
+}
+
+.arrow,.circle {
+    text-align: center;
+    clear: both;
+    color:  #f28d1b;
+}
+.arrow {
+  margin-bottom: 10px;
+}
+
+.section_question ul {
+  padding: 0;
+}
+.section_question li {
+  margin-bottom: 50px;
+}
+.section_question li p:nth-child(even) {
+  background: #f2f2f2;
+}
+.come p {
+    font-size: 1.5rem;
+}
+
+textarea {
+    width: 600px;
+    height: 300px;
+}
+
+.btn {
+  display:block;
+width: 150px;
+height: 30px;
+  background: #f28d1b;
+  border-radius: 5px;
+  margin: 10px 0 10px 930px;
+  color: #fff;
+  text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: .3s;
+}
+.btn:hover {
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+.gl_footer {
+    border-top: 1px solid #2e3740;
+    box-shadow:0 0 5px #ccc;
+    text-align: center;
+}
