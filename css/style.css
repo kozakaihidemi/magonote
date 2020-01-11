@@ -8,7 +8,6 @@ body {
     color: #2e3740;
     font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'MS Pゴシック', 'MS PGothic', sans-serif;
     padding: 0;
-
 }
 
 section h1 {
@@ -351,8 +350,12 @@ background-color: #f2f2f2;
 .sat {
   color: #79A6F2;
 }
-
-
+#page_top {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  z-index: 999;
+}
 
 .btn {
   display:block;

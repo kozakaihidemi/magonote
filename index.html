@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/1.0.1/sanitize.min.css">
     <link rel="stylesheet" href="css/jquery.bxslider.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -326,7 +327,7 @@
     </section>
     <div class="button container">
         <a href="#top">
-            <p class="btn">トップへ戻る&nbsp;<i class="fa fa-arrow-circle-up" aria-hidden="true"></i></p>
+            <p id="page_top" class="btn">トップへ戻る&nbsp;<i class="fa fa-arrow-circle-up" aria-hidden="true"></i></p>
         </a>
     </div>
     <footer class="w-100 gl_footer">
@@ -334,22 +335,25 @@
             <p id="copyright"><small>Copyright 2020 便利屋・孫の手本舗 All rights reserved.</small></p>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
     <script>
-    $(function() {
-        $('.bxslider').bxSlider({
-            mode: "horizontal",
-            auto: "true",
-            infiniteLoop: true,
-            speed: 1000,
-            pause: 3000,
-            slideMargin: 20,
-            controls: false,
-            pager: false,
-        });
-    });
-    </script>
+        $(function(){
+var topBtn=$('#page_top');
+topBtn.hide();
+$(window).scroll(function(){
+  if($(this).scrollTop()>1000){
+    topBtn.fadeIn();
+  }else{
+    topBtn.fadeOut();
+  }
+});
+topBtn.click(function(){
+  $('body,html').animate({
+  scrollTop: 0},500);
+  return false;
+});
+});
+   </script>
+
 
 </body>
 
