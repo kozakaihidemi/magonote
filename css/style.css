@@ -44,6 +44,9 @@ a {
 a:hover {
     color: green;
 }
+.mago {
+  color: #f28d1b;
+}
 
 .gl_header {
     padding: 30px 0 20px;
