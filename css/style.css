@@ -102,7 +102,7 @@ h2 {
 }
 
 .gl_nav ul {
-    text-align: center;
+    text-alig: center;
 }
 .nav_text {
   font-size: 1.8rem;
@@ -112,12 +112,19 @@ h2 {
   padding-bottom: 10px;
 }
 
+.gl_nav ul {
+  padding: 0;
+
+}
+
 .gl_nav ul li {
     display: inline-block;
-    width: 200px;
+    width: 19.73%;
     height: 80px;
     border-right: 1px solid #ccc;
     font-size: 1.5rem;
+    text-align: center;
+
 }
 
 .gl_nav ul li:first-child {
@@ -178,7 +185,7 @@ ul.bxslider li img {
     width: 320px;
     height: 200px;
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 3px;
     padding: 3px;
 }
 
@@ -215,6 +222,7 @@ ul.bxslider li img {
     width: 300px;
     height: 160px;
     border: 1px solid #CCC;
+    border-radius: 3px;
 }
 
 .right {
