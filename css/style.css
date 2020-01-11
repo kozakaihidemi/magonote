@@ -275,12 +275,13 @@ ul.bxslider li img {
 .w360 {
   width: 360px;
 }
-.come {
-  margin: 50px 0;
-}
+
 .come p {
     font-size: 1.7rem;
-    line-height: 0.5rem;
+    line-height: 0.8rem;
+}
+.come p:last-child {
+  margin-bottom: 40px;
 }
 .form_p {
   width: 230px;
@@ -297,9 +298,58 @@ textarea {
 }
 
 .calwrap {
+  width: 400px;
+  /*height: 520px;*/
   position: absolute;
-  top: 200px;
+  top: 230px;
   right: 0;
+/*background-color: #fdf5e6;*/
+
+/*border: 1px solid #ccc;
+border-radius: 3px;*/
+padding: 10px;
+text-align: center;
+}
+.calwrap h2 {
+  font-size: 3.2rem;
+  position: relative;
+  padding: 0.25em 0;
+  margin: 0 auto;
+}
+
+.calwrap h2:after {
+  content:"";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+}
+.calwrap p {
+  margin: 10px;
+}
+.calwrap .year_month {
+  padding: 0 50px;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+table {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  border-collapse: collapse;
+}
+table th, table td {
+  border: solid 1px #ccc;
+  text-align: center;
+}
+.week {
+background-color: #f2f2f2;
+}
+.sun {
+  color: #FA514B;
+}
+.sat {
+  color: #79A6F2;
 }
 
 
@@ -309,7 +359,7 @@ textarea {
 width: 150px;
 height: 30px;
   background: #f28d1b;
-  border-radius: 5px;
+  border-radius: 3px;
   margin: 10px 0 10px 930px;
   color: #fff;
   text-align: center;

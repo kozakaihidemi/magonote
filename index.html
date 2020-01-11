@@ -189,9 +189,9 @@
                     <textarea class="form_box"name="message"></textarea></label></p>
             <p><input class="form_box" type="submit" value="確認する"></p>
         </form>
-     <div class="calwrap">
-        <h2>ご予約カレンダー</h2>
-    <p class="month">2020 / 1月</p>
+     <div id="reserved" class="calwrap">
+        <h2>ご予約カレンダー<i class="fa fa-calendar-check-o" aria-hidden="true"></i></h2>
+    <p class="month"><i class="fa fa-angle-double-left" aria-hidden="true"></i><span class="year_month">2020年 / 1月</span><i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
           <table>
             <tr>
               <th class="week">日</th>
@@ -206,129 +206,123 @@
         <td class="blank">&nbsp;</td>
         <td class="blank">&nbsp;</td>
         <td class='wed'>
-        <div class="cal_date">1</div>
+        <div class="cal_date">1<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='thu'>        <div class="cal_date">2</div>
+        <td class='thu'>        <div class="cal_date">2<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='fri'>        <div class="cal_date">3</div>
+        <td class='fri'>        <div class="cal_date">3<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='sat'>        <div class="cal_date">4</div>
-        <div class="cal_contents">
-        </div></td>
-    </tr>
-    <tr>
-        <td class='sun'>        <div class="cal_date">5</div>
-        <div class="cal_contents">
-        </div></td>
-        <td class='mon'>        <div class="cal_date">6</div>
-        <div class="cal_contents">
-
-        </div></td>
-        <td class='tue'>        <div class="cal_date">7</div>
-        <div class="cal_contents">
-
-        </div></td>
-        <td class='wed'>        <div class="cal_date">8</div>
-        <div class="cal_contents">
-
-        </div></td>
-        <td class='thu'>        <div class="cal_date">9</div>
-        <div class="cal_contents">
-        </div></td>
-        <td class='fri'>        <div class="cal_date">10</div>
-        <div class="cal_contents">
-        </div></td>
-        <td class='today sat'>        <div class="cal_date">11</div>
+        <td class='sat'>        <div class="cal_date">4<br>○</div>
         <div class="cal_contents">
         </div></td>
     </tr>
     <tr>
-        <td class='sun'>        <div class="cal_date">12</div>
+        <td class='sun'>        <div class="cal_date">5<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='mon'>        <div class="cal_date">13</div>
+        <td class='mon'>        <div class="cal_date">6<br>○</div>
         <div class="cal_contents">
 
         </div></td>
-        <td class='tue'>        <div class="cal_date">14</div>
+        <td class='tue'>        <div class="cal_date">7<br>○</div>
+        <div class="cal_contents">
+
+        </div></td>
+        <td class='wed'>        <div class="cal_date">8<br>○</div>
+        <div class="cal_contents">
+
+        </div></td>
+        <td class='thu'>        <div class="cal_date">9<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='wed'>        <div class="cal_date">15</div>
+        <td class='fri'>        <div class="cal_date">10<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='thu'>        <div class="cal_date">16</div>
-        <div class="cal_contents">
-        </div></td>
-        <td class='fri'>        <div class="cal_date">17</div>
-        <div class="cal_contents">
-        </div></td>
-        <td class='sat'>        <div class="cal_date">18</div>
+        <td class='today sat'>        <div class="cal_date">11<br>○</div>
         <div class="cal_contents">
         </div></td>
     </tr>
     <tr>
-        <td class='sun'>        <div class="cal_date">19</div>
+        <td class='sun'>        <div class="cal_date">12<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='mon'>        <div class="cal_date">20</div>
-        <div class="cal_contents">
-        </div></td>
-        <td class='tue'>        <div class="cal_date">21</div>
+        <td class='mon'>        <div class="cal_date">13<br>○</div>
         <div class="cal_contents">
 
         </div></td>
-        <td class='wed'>        <div class="cal_date">22</div>
+        <td class='tue'>        <div class="cal_date">14<br>○</div>
+        <div class="cal_contents">
+        </div></td>
+        <td class='wed'>        <div class="cal_date">15<br>○</div>
+        <div class="cal_contents">
+        </div></td>
+        <td class='thu'>        <div class="cal_date">16<br>○</div>
+        <div class="cal_contents">
+        </div></td>
+        <td class='fri'>        <div class="cal_date">17<br>○</div>
+        <div class="cal_contents">
+        </div></td>
+        <td class='sat'>        <div class="cal_date">18<br>○</div>
+        <div class="cal_contents">
+        </div></td>
+    </tr>
+    <tr>
+        <td class='sun'>        <div class="cal_date">19<br>○</div>
+        <div class="cal_contents">
+        </div></td>
+        <td class='mon'>        <div class="cal_date">20<br>○</div>
+        <div class="cal_contents">
+        </div></td>
+        <td class='tue'>        <div class="cal_date">21<br>○</div>
         <div class="cal_contents">
 
         </div></td>
-        <td class='thu'>        <div class="cal_date">23</div>
+        <td class='wed'>        <div class="cal_date">22<br>○</div>
         <div class="cal_contents">
 
         </div></td>
-        <td class='fri'>        <div class="cal_date">24</div>
+        <td class='thu'>        <div class="cal_date">23<br>○</div>
         <div class="cal_contents">
 
         </div></td>
-        <td class='sat'>        <div class="cal_date">25</div>
+        <td class='fri'>        <div class="cal_date">24<br>○</div>
+        <div class="cal_contents">
+
+        </div></td>
+        <td class='sat'>        <div class="cal_date">25<br>○</div>
         <div class="cal_contents">
 
         </div></td>
     </tr>
     <tr>
-        <td class='sun'>        <div class="cal_date">26</div>
+        <td class='sun'>        <div class="cal_date">26<br>○</div>
         <div class="cal_contents">
 
         </div></td>
-        <td class='mon'>        <div class="cal_date">27</div>
+        <td class='mon'>        <div class="cal_date">27<br>○</div>
         <div class="cal_contents">
 
         </div></td>
-        <td class='tue'>        <div class="cal_date">28</div>
+        <td class='tue'>        <div class="cal_date">28<br>○</div>
         <div class="cal_contents">
 
         </div></td>
-        <td class='wed'>        <div class="cal_date">29</div>
+        <td class='wed'>        <div class="cal_date">29<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='thu'>        <div class="cal_date">30</div>
+        <td class='thu'>        <div class="cal_date">30<br>○</div>
         <div class="cal_contents">
         </div></td>
-        <td class='fri'>        <div class="cal_date">31</div>
+        <td class='fri'>        <div class="cal_date">31<br>○</div>
         <div class="cal_contents">
         </div></td>
         <td class="blank">&nbsp;</td>
     </tr>
 </table>
-    </section>
-    <section id="reserved" class="section_reserved">
-        <div class="container">
-            <h1>ご予約はこちら</h1>
-            <div class="monthly" id="mycalendar"></div>
-            </div>
-        </div>
+<p>○予約可&nbsp;△要お問合せ&nbsp;×予約不可</p>
     </section>
     <div class="button container">
         <a href="#top">
