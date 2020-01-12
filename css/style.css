@@ -1,13 +1,14 @@
 @charset "UTF-8";
 html {
     font-size: 62.5%
-
 }
 
 body {
     color: #2e3740;
     font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'MS Pゴシック', 'MS PGothic', sans-serif;
     padding: 0;
+  position:relative; /*topBtnの親要素に指定*/
+  border-top: 15px solid #f2f2f2;
 }
 
 section h1 {
@@ -352,7 +353,7 @@ background-color: #f2f2f2;
 }
 #page_top {
   position: fixed;
-  bottom: 80px;
+  /*bottom: 170px;*/
   right: 50px;
   z-index: 999;
 }
@@ -373,8 +374,12 @@ height: 30px;
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
 .gl_footer {
-    border-top: 1px solid #2e3740;
+/*    border-top: 1px solid #2e3740;
     box-shadow:0 0 5px #ccc;
-    text-align: center;
+*/    text-align: center;
+}
+#copyright {
+  font-size: 2rem;
+  padding: 20px;
 }
 
