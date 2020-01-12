@@ -8,7 +8,7 @@ body {
     font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'MS Pゴシック', 'MS PGothic', sans-serif;
     padding: 0;
   position:relative; /*topBtnの親要素に指定*/
-  border-top: 15px solid #f2f2f2;
+  border-top: 15px solid #fcfcfc;
 }
 
 section h1 {
@@ -29,7 +29,7 @@ p {
 
 .w-100 {
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #fcfcfc;
 }
 
 ul li {
@@ -199,7 +199,9 @@ ul.bxslider li img {
 .services_title span{
   font-weight: bold;
 }
-
+.p-20 {
+padding: 10px 0;
+}
 .section_flow h2 {
     font-size: 2.5rem;
     display: inline-block;
@@ -263,7 +265,7 @@ ul.bxslider li img {
   margin-bottom: 50px;
 }
 .section_question li p:nth-child(even) {
-  background: #f2f2f2;
+  background: #fcfcfc;
 }
 .section_contact {
   position: relative;
@@ -343,7 +345,7 @@ table th, table td {
   text-align: center;
 }
 .week {
-background-color: #f2f2f2;
+background-color: #fcfcfc;
 }
 .sun {
   color: #FA514B;
