@@ -151,7 +151,7 @@ h2 {
     display: inline-block;
     width: 19.73%;
     height: 80px;
-    border-right: 1px solid #ccc;
+    border-right: 1px dotted #ccc;
     font-size: 1.5rem;
     text-align: center;
 
@@ -166,7 +166,11 @@ h2 {
 }
 
 .hero_img {
-    background: url("../images/hero_img.jpg") center center / cover no-repeat;
+    background-image: url("../images/house1.png"),url("../images/hero_img.jpg");
+    background-position: center bottom 0%, center center;
+     background-size: auto,cover;
+     background-repeat: repeat-x,no-repeat;
+
     height: 520px;
 }
 
@@ -191,7 +195,7 @@ ul.bxslider li img {
 .hero_text {
     width: 560px;
     height: 270px;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .fa-quora {
